@@ -13,14 +13,14 @@ difference() {
     
     // strap
      
-    translate([0, -10, 6.5])
-    #cube([52, 18, 2.4], center = true);
+    translate([0, -7, 6.5])
+    #cube([52, 21.5, 2.4], center = true);
      
-    translate([-25, -10, 8])
-    #cube([1, 18, 1.5], center = true);
+    translate([-25, -7, 8])
+    #cube([1, 21.5, 1.5], center = true);
      
-    translate([25, -10, 8])
-    #cube([1, 18, 1.5], center = true);
+    translate([25, -7, 8])
+    #cube([1, 21.5, 1.5], center = true);
      
     // main hole
      
@@ -29,28 +29,28 @@ difference() {
      
     // top nuts
     translate([22.5, -23, 0])
-    cylinder(10, r = 1);
+    cylinder(10, r = 1.1);
      
-    translate([22.5, -23, 7])
-    cylinder(2, r = 2);
+    translate([22.5, -23, 6])
+    cylinder(3, r = 2.5);
     
     translate([22.5, 23, 0])
-    cylinder(10, r = 1);
+    cylinder(10, r = 1.1);
      
-    translate([22.5, 23, 7])
-    cylinder(2, r = 2);
+    translate([22.5, 23, 6])
+    cylinder(3, r = 2.5);
     
     translate([-22.5, -23, 0])
-    cylinder(10, r = 1);
+    cylinder(10, r = 1.1);
      
-    translate([-22.5, -23, 7])
-    cylinder(2, r = 2);
+    translate([-22.5, -23, 6])
+    cylinder(3, r = 2.5);
     
     translate([-22.5, 23, 0])
-    cylinder(10, r = 1);
+    cylinder(10, r = 1.1);
      
-    translate([-22.5, 23, 7])
-    cylinder(2, r = 2);
+    translate([-22.5, 23, 6])
+    cylinder(3, r = 2.5);
     
     // usb c port
     
@@ -74,7 +74,7 @@ difference() {
  cylinder(5.4, r = 3);
  
      
- cylinder(10, r = 2);
+ cylinder(10, r = 1.1);
      
  }
  
@@ -83,7 +83,7 @@ difference() {
  cylinder(5.4, r = 3);
  
      
- cylinder(10, r = 2);
+ cylinder(10, r = 1.1);
      
  }
  
@@ -92,7 +92,7 @@ difference() {
  cylinder(5.4, r = 3);
  
      
- cylinder(10, r = 2);
+ cylinder(10, r = 1.1);
      
  }
  
@@ -101,6 +101,6 @@ difference() {
  cylinder(5.4, r = 3);
  
      
- cylinder(10, r = 2);
+ cylinder(10, r = 1.1);
      
  }

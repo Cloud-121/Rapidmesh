@@ -5,9 +5,9 @@ $fn = 10;
 
 difference() {
     
-
+     translate([-26.5, -27.5, -7.5]) 
      minkowski() {
-     cube([53, 55, 15], center = true);
+     cube([53, 55, 15]);
           sphere(r = 1); // Radius of fillet
      }
     
@@ -17,10 +17,10 @@ difference() {
     #cube([52, 21.5, 2.4], center = true);
      
     translate([-25, -7, 8])
-    #cube([2.2, 21.5, 1.5], center = true);
+    #cube([3.4, 21.5, 1.5], center = true);
      
     translate([25, -7, 8])
-    #cube([2.2, 21.5, 1.5], center = true);
+    #cube([3.4, 21.5, 1.5], center = true);
      
     // main hole
      
@@ -104,3 +104,5 @@ difference() {
  cylinder(10, r = 1.1);
      
  }
+ 
+ 

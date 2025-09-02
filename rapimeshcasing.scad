@@ -17,10 +17,10 @@ difference() {
     #cube([52, 21.5, 2.4], center = true);
      
     translate([-25, -7, 8])
-    #cube([1, 21.5, 1.5], center = true);
+    #cube([2.2, 21.5, 1.5], center = true);
      
     translate([25, -7, 8])
-    #cube([1, 21.5, 1.5], center = true);
+    #cube([2.2, 21.5, 1.5], center = true);
      
     // main hole
      

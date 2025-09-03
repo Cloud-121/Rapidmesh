@@ -1,13 +1,13 @@
 
 
-$fn = 10; 
+$fn = 100; 
 
 
 difference() {
     
      translate([-26.5, -27.5, -7.5]) 
      minkowski() {
-     cube([53, 55, 15]);
+     cube([53, 55 + 8.8, 15]);
           sphere(r = 1); // Radius of fillet
      }
     
@@ -21,6 +21,11 @@ difference() {
      
     translate([25, -7, 8])
     #cube([3.4, 21.5, 1.5], center = true);
+     
+    // battery hole
+     
+    translate([0, 30.7, -3])
+    cube([52, 9, 11.5], center = true);
      
     // main hole
      
@@ -66,6 +71,14 @@ difference() {
     
     translate([-28, -14.323, -5])
     #cube([4, 7, 3.5]);
+    
+    // antenna hole
+    
+    translate([-20, 37, -2.5])
+    rotate([90, 0, 0])
+    #cylinder(5, r = 3.1, center = true);
+    
+    
  }
 
 // screw posts
